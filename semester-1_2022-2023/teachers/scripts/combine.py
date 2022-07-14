@@ -18,6 +18,7 @@ for file in files:
         ID = sub(r'\s', '', c[0])
         nama = c[1].strip()
 
+        print(f"Adding {ID} - {nama}")
         if ID in guru_list:
             guru_list[ID]['mapel'].append(file.replace('.txt', ''))
             continue
