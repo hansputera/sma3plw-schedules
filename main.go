@@ -1,10 +1,11 @@
 package main
 
 import (
+	"smanti_schedules/schedules"
 	"smanti_schedules/teachers"
 
-	"github.com/gofiber/fiber/v2"
 	"github.com/bytedance/sonic"
+	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
 
@@ -33,6 +34,18 @@ func main() {
 
 		c.JSON(map[string]teachers.TeacherMaps{
 			"data": data,
+		})
+		return nil
+	})
+
+	app.Get("/schedules/:class", func(c *fiber.Ctx) error {
+		scheds, err := schedules.GetSchedules(SCHEDULES_PATH, c.Params("class"))
+		if err != nil {
+			return err
+		}
+
+		c.JSON(map[string]schedules.ScheduleMaps{
+			"data": *scheds,
 		})
 		return nil
 	})
