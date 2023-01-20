@@ -5,6 +5,7 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/bytedance/sonic"
+	"github.com/gofiber/fiber/v2/middleware/cors"
 )
 
 func main() {
@@ -15,6 +16,7 @@ func main() {
 		JSONDecoder: sonic.Unmarshal,
 	})
 
+	app.Use(cors.New())
 	app.Get("/", func(c *fiber.Ctx) error {
 		c.SendString("Hello World!")
 		return nil
