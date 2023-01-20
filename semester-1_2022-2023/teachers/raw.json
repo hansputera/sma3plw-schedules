@@ -4,7 +4,7 @@
     "mapel": [
       "pendidikan_agama_hindu"
     ],
-    "jam_mengajar": "-",
+    "jam_mengajar": 0,
     "keterangan": "X, XI & XII SELURUHNYA"
   },
   "15": {
@@ -12,7 +12,7 @@
     "mapel": [
       "pendidikan_agama_hindu"
     ],
-    "jam_mengajar": "-",
+    "jam_mengajar": 0,
     "keterangan": "X, XI & XII SELURUHNYA"
   },
   "22": {
@@ -608,7 +608,7 @@
     "mapel": [
       "pendidikan_agama_kristen"
     ],
-    "jam_mengajar": "-",
+    "jam_mengajar": 0,
     "keterangan": "XII SELURUHNYA"
   },
   "13": {
@@ -616,7 +616,7 @@
     "mapel": [
       "pendidikan_agama_kristen"
     ],
-    "jam_mengajar": "-",
+    "jam_mengajar": 0,
     "keterangan": "XI SELURUHNYA"
   },
   "14": {
@@ -624,7 +624,7 @@
     "mapel": [
       "pendidikan_agama_kristen"
     ],
-    "jam_mengajar": "-",
+    "jam_mengajar": 0,
     "keterangan": "X SELURUHNYA"
   }
 }

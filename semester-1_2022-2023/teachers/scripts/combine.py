@@ -35,7 +35,7 @@ for file in files:
         guru_list[ID] = {
             "nama": nama,
             "mapel": [file.replace('.txt', '')],
-            "jam_mengajar": int(jam_mengajar) if jam_mengajar != '-' else '-',
+            "jam_mengajar": int(jam_mengajar) if jam_mengajar != '-' else 0,
             "keterangan": ket
         }
     
