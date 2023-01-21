@@ -13,9 +13,9 @@ import (
 func main() {
 	app := fiber.New(fiber.Config{
 		ServerHeader: "SMANTI-Schedules",
-		AppName: "Smanti Schedules",
-		JSONEncoder: sonic.Marshal,
-		JSONDecoder: sonic.Unmarshal,
+		AppName:      "Smanti Schedules",
+		JSONEncoder:  sonic.Marshal,
+		JSONDecoder:  sonic.Unmarshal,
 	})
 
 	app.Use(cors.New())
@@ -56,7 +56,19 @@ func main() {
 	})
 
 	app.Get("/schedules/:class", func(c *fiber.Ctx) error {
-		scheds, err := schedules.GetSchedules(SCHEDULES_PATH, c.Params("class"))
+		data := &teachers.TeacherMaps{}
+		if len(c.Query("teachers")) > 0 {
+			results, err := teachers.GetTeachers(TEACHERS_PATH)
+			if err != nil {
+				c.JSON(map[string]string{
+					"error": err.Error(),
+				})
+				return nil
+			}
+			
+			data = &results
+		}
+		scheds, err := schedules.GetSchedules(SCHEDULES_PATH, c.Params("class"), data)
 		if err != nil {
 			return err
 		}

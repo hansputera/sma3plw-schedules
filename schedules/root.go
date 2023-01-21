@@ -4,11 +4,12 @@ import (
 	"bufio"
 	"os"
 	"path"
+	"smanti_schedules/teachers"
 	"strconv"
 	"strings"
 )
 
-func GetSchedules(schedules_path string, class string) (*ScheduleMaps, error) {
+func GetSchedules(schedules_path string, class string, teachers *teachers.TeacherMaps) (*ScheduleMaps, error) {
 	maps := ScheduleMaps{}
 
 	dirs, err := os.ReadDir(path.Join(schedules_path, class))
@@ -29,13 +30,20 @@ func GetSchedules(schedules_path string, class string) (*ScheduleMaps, error) {
 					clockTexts := strings.Split(strings.TrimSpace(texts[0]), "-")
 
 					code, _ := strconv.Atoi(strings.TrimSpace(texts[1]))
-
-					maps[strings.Replace(entry.Name(), ".txt", "", -1)] = append(maps[strings.Replace(entry.Name(), ".txt", "", -1)], Schedule{
+					t := (*teachers)[strconv.Itoa(code)]
+					data := Schedule{
 						Index:       index + 1,
 						TeacherCode: code,
 						ClockBegin:  clockTexts[0],
 						ClockEnd:    clockTexts[1],
-					})
+						Teacher:     &t,
+					}
+
+					if len(t.Nama) < 1 {
+						data.Teacher = nil
+					}
+
+					maps[strings.Replace(entry.Name(), ".txt", "", -1)] = append(maps[strings.Replace(entry.Name(), ".txt", "", -1)], data)
 					index++
 				}
 			}
