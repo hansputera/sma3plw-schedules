@@ -14,8 +14,16 @@ type ScheduleSetPayload struct {
 	Code  int    `json:"code"`
 }
 
+func valid_day(day string) bool {
+	return day == "senin" || day == "selasa" || day == "rabu" || day == "kamis" || day == "jumat"
+}
+
 func SetSchedules(schedules_path string, class string, day string, schedules []*ScheduleSetPayload) error {
 	day = strings.ToLower(day)
+
+	if !valid_day(day) {
+		return errors.New("unsupported day")
+	}
 	file, err := os.OpenFile(path.Join(schedules_path, class, fmt.Sprintf("%s.txt", day)), os.O_RDWR, os.ModeDevice)
 	if err != nil {
 		if errors.Is(err, os.ErrNotExist) {
