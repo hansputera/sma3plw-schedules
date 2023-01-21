@@ -1,10 +1,11 @@
 package teachers
 
 import (
-	"encoding/json"
 	"io"
 	"os"
 	"path"
+
+	"github.com/bytedance/sonic"
 )
 
 func GetTeachers(teachers_path string) (TeacherMaps, error) {
@@ -20,7 +21,7 @@ func GetTeachers(teachers_path string) (TeacherMaps, error) {
 		return teachers, err
 	}
 
-	if err = json.Unmarshal(data, &teachers); err != nil {
+	if err = sonic.Unmarshal(data, &teachers); err != nil {
 		return teachers, err
 	}
 
