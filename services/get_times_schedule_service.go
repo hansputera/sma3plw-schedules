@@ -7,6 +7,11 @@ import (
 )
 
 func GetScheduleTimes(day string) *[]string {
+	day = strings.ToLower(day)
+
+	if day == "minggu" || day == "sabtu" {
+		return &[]string{"LIBUR"}
+	}
 	times := []string{}
 	max_times := 0
 
@@ -51,7 +56,7 @@ func GetScheduleTimes(day string) *[]string {
 				}
 			}
 
-			times = append(times, fmt.Sprintf("%d.%d - %d.%d", timeParse.Hour(), timeParse.Minute(), end_time.Hour(), end_time.Minute()))
+			times = append(times, fmt.Sprintf("%02d.%02d - %02d.%02d", timeParse.Hour(), timeParse.Minute(), end_time.Hour(), end_time.Minute()))
 			timeParse = end_time
 		}
 

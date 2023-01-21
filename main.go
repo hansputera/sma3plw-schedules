@@ -2,6 +2,7 @@ package main
 
 import (
 	"smanti_schedules/schedules"
+	"smanti_schedules/services"
 	"smanti_schedules/teachers"
 
 	"github.com/bytedance/sonic"
@@ -34,6 +35,22 @@ func main() {
 
 		c.JSON(map[string]teachers.TeacherMaps{
 			"data": data,
+		})
+		return nil
+	})
+
+	app.Get("/times/:day", func(c *fiber.Ctx) error {
+		times := services.GetScheduleTimes(c.Params("day"))
+
+		if times == nil {
+			c.JSON(map[string]string{
+				"error": "fail to generate the times",
+			})
+			return nil
+		}
+
+		c.JSON(map[string][]string{
+			"data": *times,
 		})
 		return nil
 	})
