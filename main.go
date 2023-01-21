@@ -39,6 +39,21 @@ func main() {
 		return nil
 	})
 
+	app.Post("/schedules/:class/:day", func(c *fiber.Ctx) error {
+		var body []services.ScheduleSetPayload
+		if err := c.BodyParser(&body); err != nil {
+			return err
+		}
+		if err := services.SetSchedules(SCHEDULES_PATH, c.Params("class"), c.Params("day"), body); err != nil {
+			return err
+		}
+
+		c.JSON(map[string]string{
+			"data": "success setting up the schedules",
+		})
+		return nil
+	})
+
 	app.Get("/times/:day", func(c *fiber.Ctx) error {
 		times := services.GetScheduleTimes(c.Params("day"))
 
@@ -65,7 +80,7 @@ func main() {
 				})
 				return nil
 			}
-			
+
 			data = &results
 		}
 		scheds, err := schedules.GetSchedules(SCHEDULES_PATH, c.Params("class"), data)

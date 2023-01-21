@@ -18,7 +18,7 @@ func valid_day(day string) bool {
 	return day == "senin" || day == "selasa" || day == "rabu" || day == "kamis" || day == "jumat"
 }
 
-func SetSchedules(schedules_path string, class string, day string, schedules []*ScheduleSetPayload) error {
+func SetSchedules(schedules_path string, class string, day string, schedules []ScheduleSetPayload) error {
 	day = strings.ToLower(day)
 
 	if !valid_day(day) {
@@ -34,6 +34,14 @@ func SetSchedules(schedules_path string, class string, day string, schedules []*
 		} else {
 			return err
 		}
+	}
+
+	if day == "jumat" && len(schedules) != 7 {
+		return errors.New("hari Jum'at harus memiliki 7 jadwal")
+	} else if day == "senin" && len(schedules) != 12 {
+		return errors.New("hari Senin harus memiliki 12 jadwal")
+	} else if len(schedules) != 13 {
+		return errors.New("hari Selasa, Rabu, dan Kamis harus memiliki 13 jadwal")
 	}
 
 	for _, s := range schedules {
