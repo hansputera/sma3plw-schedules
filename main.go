@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+	"os"
 	"smanti_schedules/schedules"
 	"smanti_schedules/services"
 	"smanti_schedules/teachers"
@@ -11,6 +13,12 @@ import (
 )
 
 func main() {
+	args := os.Args[1:]
+
+	if len(args) < 1 {
+		fmt.Println("Missing password")
+		os.Exit(1)
+	}
 	app := fiber.New(fiber.Config{
 		ServerHeader: "SMANTI-Schedules",
 		AppName:      "Smanti Schedules",
@@ -40,6 +48,11 @@ func main() {
 	})
 
 	app.Post("/schedules/:class/:day", func(c *fiber.Ctx) error {
+		heads := c.GetReqHeaders()
+
+		if heads["authorization"] != args[0] {
+			return c.SendStatus(401)
+		}
 		var body []services.ScheduleSetPayload
 		if err := c.BodyParser(&body); err != nil {
 			return err
