@@ -7,4 +7,4 @@ type Schedule struct {
 	ClockEnd string `json:"endAt"`
 }
 
-type ScheduleMaps map[string]Schedule
+type ScheduleMaps map[string][]Schedule
