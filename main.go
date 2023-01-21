@@ -79,5 +79,17 @@ func main() {
 		return nil
 	})
 
+	app.Post("/push_updates", func(c *fiber.Ctx) error {
+		err := services.PushUpdatesGit()
+		if err != nil {
+			return err
+		}
+
+		c.JSON(map[string]string{
+			"data": "update success or already up to date",
+		})
+		return nil
+	})
+
 	app.Listen(":9000")
 }
