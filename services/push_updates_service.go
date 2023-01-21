@@ -48,7 +48,6 @@ func PushUpdatesGit() error {
 	}
 
 	err = repo.Push(&git.PushOptions{
-		RemoteName: "origin",
 		Auth:       pubKeys,
 	})
 
