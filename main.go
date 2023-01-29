@@ -108,6 +108,11 @@ func main() {
 	})
 
 	app.Post("/push_updates", func(c *fiber.Ctx) error {
+		auth := c.Query("auth")
+
+		if len(auth) != len(args[0]) || auth != args[0] {
+			return c.SendStatus(401)
+		}
 		err := services.PushUpdatesGit()
 		if err != nil {
 			return err
