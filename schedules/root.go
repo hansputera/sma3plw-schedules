@@ -34,8 +34,8 @@ func GetSchedules(schedules_path string, class string, teachers *teachers.Teache
 					data := Schedule{
 						Index:       index + 1,
 						TeacherCode: code,
-						ClockBegin:  clockTexts[0],
-						ClockEnd:    clockTexts[1],
+						ClockBegin:  strings.TrimSpace(clockTexts[0]),
+						ClockEnd:    strings.TrimSpace(clockTexts[1]),
 						Teacher:     &t,
 					}
 
