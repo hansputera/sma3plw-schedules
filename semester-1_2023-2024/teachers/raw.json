@@ -1,0 +1,654 @@
+{
+  "79": {
+    "nama": "FITRIA, S.Pd",
+    "mapel": [
+      "bk_atau_bp"
+    ],
+    "jam_mengajar": 0,
+    "keterangan": ""
+  },
+  "80": {
+    "nama": "RIDHA ARDIANUR, S.Pd",
+    "mapel": [
+      "bk_atau_bp"
+    ],
+    "jam_mengajar": 0,
+    "keterangan": ""
+  },
+  "81": {
+    "nama": "SITI MAGFIRAH, S.Pd",
+    "mapel": [
+      "bk_atau_bp"
+    ],
+    "jam_mengajar": 0,
+    "keterangan": ""
+  },
+  "82": {
+    "nama": "Dra. Hj. SITI SYAMSIAH",
+    "mapel": [
+      "bk_atau_bp"
+    ],
+    "jam_mengajar": 0,
+    "keterangan": ""
+  },
+  "25": {
+    "nama": "AHMAD ANTON, S.Pd",
+    "mapel": [
+      "sejarah",
+      "pendidikan_agama_kristen"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPS 1-5 (SP), XI IPS 1 (SP)"
+  },
+  "4": {
+    "nama": "MARDIYONO, S.Pd",
+    "mapel": [
+      "sejarah"
+    ],
+    "jam_mengajar": 14,
+    "keterangan": "XII IPA 1-6 (SI)"
+  },
+  "53": {
+    "nama": "IWAN SETIAWAN, S.Pd",
+    "mapel": [
+      "sejarah"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XI IPS 4-6, X A-D (SP)"
+  },
+  "48": {
+    "nama": "MEYLIRIA DIKLAYANTI, S.Pd, M.MPd",
+    "mapel": [
+      "sejarah"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPA 7 -8, XII IPS 1-5, XI IPA 1-5 (SI)"
+  },
+  "61": {
+    "nama": "SUKRIA, S.Pd",
+    "mapel": [
+      "sejarah"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XI IPS 6, X E-L"
+  },
+  "78": {
+    "nama": "KIKI INDAHYANI, S.Pd",
+    "mapel": [
+      "sejarah",
+      "prakarya_dan_kewirausahaan"
+    ],
+    "jam_mengajar": 26,
+    "keterangan": "X M-N (SI)"
+  },
+  "18": {
+    "nama": "MOHAMMAD SYAMSIR, S.Pd",
+    "mapel": [
+      "sejarah"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XI IPA 6-8, XI IPS 1-5 (SI), XI IPS 2-3 (SP)"
+  },
+  "35": {
+    "nama": "NURMIAH YUNUS, SH",
+    "mapel": [
+      "pkn"
+    ],
+    "jam_mengajar": 26,
+    "keterangan": "XII SELURUHNYA"
+  },
+  "41": {
+    "nama": "NORMAH, S.Pd",
+    "mapel": [
+      "pkn",
+      "kimia"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XI SELURUHNYA"
+  },
+  "55": {
+    "nama": "HAERUDDIN S,Pd",
+    "mapel": [
+      "pkn"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "X SELURUHNYA"
+  },
+  "14": {
+    "nama": "NI KETUT KETIS, S.Pd, M.PkiM",
+    "mapel": [
+      "kimia"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPA 1-4, XII IPS 1,3 (LM)"
+  },
+  "23": {
+    "nama": "Hj. YULI RAHMAWATI, S.Pd",
+    "mapel": [
+      "kimia",
+      "prakarya_dan_kewirausahaan"
+    ],
+    "jam_mengajar": 20,
+    "keterangan": "XI IPA 1-2, X A-F"
+  },
+  "12": {
+    "nama": "RISMAIDA MANURUNG, S.Pd",
+    "mapel": [
+      "kimia",
+      "prakarya_dan_kewirausahaan"
+    ],
+    "jam_mengajar": 14,
+    "keterangan": "XI IPA 7-8, X G-I"
+  },
+  "21": {
+    "nama": "Hj. KARMINI, S.Pd",
+    "mapel": [
+      "kimia",
+      "prakarya_dan_kewirausahaan",
+      "fisika"
+    ],
+    "jam_mengajar": 10,
+    "keterangan": "X J-N"
+  },
+  "27": {
+    "nama": "YULIANA BINE, S.Pd",
+    "mapel": [
+      "kimia"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XI IPA 3-6, XI IPS 1,6 (LM)"
+  },
+  "10": {
+    "nama": "BAMBANG SUTEDJO, S.Pd",
+    "mapel": [
+      "biologi"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPS 2 (LM), XI IPA 1-3, XI IPA 7-8"
+  },
+  "3": {
+    "nama": "MAHYUDIN, S.Pd",
+    "mapel": [
+      "biologi"
+    ],
+    "jam_mengajar": 16,
+    "keterangan": "X A-H"
+  },
+  "22": {
+    "nama": "ENI ISMUSASI, S.Pd",
+    "mapel": [
+      "biologi"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPA 1-6"
+  },
+  "49": {
+    "nama": "NIZAR, S.Pd",
+    "mapel": [
+      "biologi"
+    ],
+    "jam_mengajar": 8,
+    "keterangan": "XI IPA 5-6"
+  },
+  "54": {
+    "nama": "ASMAWATI, S.Pt",
+    "mapel": [
+      "biologi",
+      "prakarya_dan_kewirausahaan"
+    ],
+    "jam_mengajar": 12,
+    "keterangan": "XII IPA 7-8, XI IPA 4"
+  },
+  "57": {
+    "nama": "ALUN RANDINI, S.Pd",
+    "mapel": [
+      "biologi",
+      "prakarya_dan_kewirausahaan"
+    ],
+    "jam_mengajar": 12,
+    "keterangan": "X I-N"
+  },
+  "490": {
+    "nama": "NIZAR, S.Pd",
+    "mapel": [
+      "prakarya_dan_kewirausahaan"
+    ],
+    "jam_mengajar": 16,
+    "keterangan": "XI IPA 1-7, X I"
+  },
+  "59": {
+    "nama": "RIZKY MARDIANSYA, S.Pd",
+    "mapel": [
+      "prakarya_dan_kewirausahaan"
+    ],
+    "jam_mengajar": 4,
+    "keterangan": "X A-B"
+  },
+  "8": {
+    "nama": "Dra. RATNA SIBANNANG, M.Pd",
+    "mapel": [
+      "bahasa_indonesia"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XII IPA 1-7"
+  },
+  "6": {
+    "nama": "Dra. IRAWATI, M.Pd",
+    "mapel": [
+      "bahasa_indonesia"
+    ],
+    "jam_mengajar": 27,
+    "keterangan": "X A-I"
+  },
+  "28": {
+    "nama": "YULITA, S.Pd",
+    "mapel": [
+      "bahasa_indonesia"
+    ],
+    "jam_mengajar": 32,
+    "keterangan": "XII IPA 8, XII IPS 1-5, XI IPS 1-2"
+  },
+  "67": {
+    "nama": "CHYNTIA NELA MARIA H, S.Pd",
+    "mapel": [
+      "bahasa_indonesia"
+    ],
+    "jam_mengajar": 32,
+    "keterangan": "XI IPA 1-8"
+  },
+  "73": {
+    "nama": "SRI HIDAYANTI, S.Pd",
+    "mapel": [
+      "bahasa_indonesia"
+    ],
+    "jam_mengajar": 31,
+    "keterangan": "XI IPS 3-6, X J-N"
+  },
+  "20": {
+    "nama": "Drs. MUKADDAS",
+    "mapel": [
+      "matematika"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPS 2-5, XI IPS 1-2 (UMUM)"
+  },
+  "2": {
+    "nama": "SITI HANIFAH NAIM, S.Pd, M.Pd",
+    "mapel": [
+      "matematika"
+    ],
+    "jam_mengajar": 12,
+    "keterangan": "XII IPA 1-3 (UMUM)"
+  },
+  "37": {
+    "nama": "GITA PUSPITASARI, S.Pd., M.Pd",
+    "mapel": [
+      "matematika"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPA 1-6 (MTK PEMINATAN)"
+  },
+  "52": {
+    "nama": "ARTASNIM, S.Pd",
+    "mapel": [
+      "matematika"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XI IPA 1-6 (UMUM)"
+  },
+  "45": {
+    "nama": "FITRIANI, S.Pd",
+    "mapel": [
+      "matematika"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPA 7-8, XI IPA 5-8 (MTK PEMINATAN)"
+  },
+  "58": {
+    "nama": "AHMAD ARIANSYAH, S.Pd",
+    "mapel": [
+      "matematika",
+      "fisika"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XI IPA 1-4 (PEMINATAN), XI IPA 7-8 (UMUM)"
+  },
+  "69": {
+    "nama": "HAERUL YAHYA, S.Pd",
+    "mapel": [
+      "matematika"
+    ],
+    "jam_mengajar": 22,
+    "keterangan": "XI IPS 3-6, X A-B (UMUM)"
+  },
+  "72": {
+    "nama": "MUH. FAISAL RAMDHANI, S.Pd",
+    "mapel": [
+      "matematika"
+    ],
+    "jam_mengajar": 18,
+    "keterangan": "X I-N"
+  },
+  "68": {
+    "nama": "FIRMANSYAH, S.Pd",
+    "mapel": [
+      "matematika"
+    ],
+    "jam_mengajar": 18,
+    "keterangan": "X C-H"
+  },
+  "30": {
+    "nama": "Drs. Yobelt Onivas",
+    "mapel": [
+      "matematika"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPA 4-8, XII IPS 1 (UMUM)"
+  },
+  "15": {
+    "nama": "Hj.FITRIYATI, S.Pd, MM",
+    "mapel": [
+      "seni_budaya"
+    ],
+    "jam_mengajar": 26,
+    "keterangan": "XII SELURUHNYA"
+  },
+  "75": {
+    "nama": "Reza Stanzah, S.Pd",
+    "mapel": [
+      "seni_budaya"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XI SELURUHNYA"
+  },
+  "17": {
+    "nama": "HERLINA, S.Pak",
+    "mapel": [
+      "pendidikan_agama_kristen"
+    ],
+    "jam_mengajar": 39,
+    "keterangan": "XII SELURUHNYA"
+  },
+  "26": {
+    "nama": "REINAL, S.Th",
+    "mapel": [
+      "pendidikan_agama_kristen"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "X SELURUHNYA"
+  },
+  "38": {
+    "nama": "NI WAYAN KERTINI, S.Ag",
+    "mapel": [
+      "pendidikan_agama_hindu"
+    ],
+    "jam_mengajar": 36,
+    "keterangan": "XII SELURUHNYA, XI SELURUHNYA, X SELURUHNYA"
+  },
+  "9": {
+    "nama": "Dra. Hj. WATY",
+    "mapel": [
+      "pendidikan_agama_islam"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPA 1-8"
+  },
+  "51": {
+    "nama": "MINARNI, S.Ag",
+    "mapel": [
+      "pendidikan_agama_islam"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPS 1-5, XI IPA 1-3"
+  },
+  "56": {
+    "nama": "NURCHOLIS, S.Pd.i",
+    "mapel": [
+      "pendidikan_agama_islam"
+    ],
+    "jam_mengajar": 21,
+    "keterangan": "XI IPA 4-8, XI IPS 1-2"
+  },
+  "65": {
+    "nama": "HAJIRIANTO, S.Pd",
+    "mapel": [
+      "pendidikan_agama_islam",
+      "p5"
+    ],
+    "jam_mengajar": 16,
+    "keterangan": "XI IPS 3-6, X A-B"
+  },
+  "77": {
+    "nama": "MOH. NUR AKBAR, S.Pd",
+    "mapel": [
+      "pendidikan_agama_islam"
+    ],
+    "jam_mengajar": 8,
+    "keterangan": "X C-F"
+  },
+  "43": {
+    "nama": "YEYEN ATMAWATY, S.Pd, M.Pd",
+    "mapel": [
+      "p5",
+      "bahasa_inggris"
+    ],
+    "jam_mengajar": 6,
+    "keterangan": "X A-B, X L"
+  },
+  "230": {
+    "nama": "Hj. YULI RAHMAWATI S.Pd",
+    "mapel": [
+      "p5"
+    ],
+    "jam_mengajar": 2,
+    "keterangan": "X G"
+  },
+  "120": {
+    "nama": "RISMAIDA MANURUNG, S.Pd",
+    "mapel": [
+      "p5"
+    ],
+    "jam_mengajar": 2,
+    "keterangan": "X H"
+  },
+  "680": {
+    "nama": "FIRMANSYAH, S.Pd",
+    "mapel": [
+      "p5"
+    ],
+    "jam_mengajar": 6,
+    "keterangan": "X I-K"
+  },
+  "690": {
+    "nama": "HAERUL YAHYA, S.Pd",
+    "mapel": [
+      "p5"
+    ],
+    "jam_mengajar": 2,
+    "keterangan": "X D"
+  },
+  "720": {
+    "nama": "MUH. FAISAL RAMADHANI, S.Pd",
+    "mapel": [
+      "p5"
+    ],
+    "jam_mengajar": 6,
+    "keterangan": "X C, X M, X N"
+  },
+  "29": {
+    "nama": "Dra. SRI WIDARNI, M.Sosio",
+    "mapel": [
+      "sosiologi"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPS 1-5, XII IPA 1 (LM)"
+  },
+  "34": {
+    "nama": "NUNUNG ADRIANI, S.Sos",
+    "mapel": [
+      "sosiologi"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XII IPA 4-6 (LM), XI IPA 6-7 (LM), XI IPS 1-2"
+  },
+  "32": {
+    "nama": "Dra. ELYANA",
+    "mapel": [
+      "sosiologi"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XI IPS 3-6, X A-D"
+  },
+  "64": {
+    "nama": "LENNY NOVITA SARI",
+    "mapel": [
+      "sosiologi"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "X E-N, XI IPA 8 (LM)"
+  },
+  "11": {
+    "nama": "Hj. MARYANI, S.Pd, M.AK",
+    "mapel": [
+      "ekonomi"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XII IPS 1-5, XII IPA 2,7 (LM)"
+  },
+  "33": {
+    "nama": "Hj. PATMA SARIATI, SE",
+    "mapel": [
+      "ekonomi"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XII IPA 8 (LM), X A-J, X M-N"
+  },
+  "47": {
+    "nama": "Hj. HASNIATI, SE",
+    "mapel": [
+      "ekonomi"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XI IPS 1-6, X K-L"
+  },
+  "40": {
+    "nama": "NURMIATI, S.Pd",
+    "mapel": [
+      "bahasa_jerman"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XI IPA 1-2, XI IPS 2-5"
+  },
+  "5": {
+    "nama": "Drs. BURHANUDDIN",
+    "mapel": [
+      "geografi"
+    ],
+    "jam_mengajar": 16,
+    "keterangan": "XI IPS 1-4"
+  },
+  "36": {
+    "nama": "ROYNAL, S.Pd",
+    "mapel": [
+      "geografi"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XII IPS 1-5, XI IPS 5-6"
+  },
+  "60": {
+    "nama": "RATNASARI, S.Pd",
+    "mapel": [
+      "geografi"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "X A-N"
+  },
+  "39": {
+    "nama": "DEWI ROHAYATI, S.Pd",
+    "mapel": [
+      "bahasa_inggris"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPA 5-8, XI IPS 1-3, X A-E"
+  },
+  "44": {
+    "nama": "MOH. RISWANTO, S.Pd, M.Pd",
+    "mapel": [
+      "bahasa_inggris"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XII IPS 5, XI IPS 4-6 (BI), XII IPA 3, XI IPA 3-5 (BSE), X C-D (Mulok)"
+  },
+  "19": {
+    "nama": "Hj. ASTRIANI, S.Pd, M.Pd",
+    "mapel": [
+      "bahasa_inggris"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XII IPA 1-8, XII IPS 1-4 (BI), X A-B (Mulok)"
+  },
+  "74": {
+    "nama": "CHRISTIN NAFTARINI MASUA S.Pd",
+    "mapel": [
+      "bahasa_inggris"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "X K-N (BI), X E-N (Mulok)"
+  },
+  "7": {
+    "nama": "USMAN NASIR, S.Pd, M.Pd",
+    "mapel": [
+      "fisika"
+    ],
+    "jam_mengajar": 28,
+    "keterangan": "XII IPA 3-9"
+  },
+  "50": {
+    "nama": "NANI, S.Pd, M.Pd",
+    "mapel": [
+      "fisika"
+    ],
+    "jam_mengajar": 15,
+    "keterangan": "X IPA 1-5"
+  },
+  "46": {
+    "nama": "GUFRAN, S.Pd",
+    "mapel": [
+      "penjas"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPS 1-5, XI IPS 1-6"
+  },
+  "66": {
+    "nama": "RIFKY PRATAMA, S.Pd",
+    "mapel": [
+      "penjas"
+    ],
+    "jam_mengajar": 22,
+    "keterangan": "XI IPA 1-4, X H-L"
+  },
+  "71": {
+    "nama": "FIRMANSYAH, S.Pd",
+    "mapel": [
+      "penjas"
+    ],
+    "jam_mengajar": 21,
+    "keterangan": "XI IPA 5-8, XI IPS 1-3"
+  },
+  "70": {
+    "nama": "MUHAMMAD AKBAR, S.Pd",
+    "mapel": [
+      "penjas"
+    ],
+    "jam_mengajar": 18,
+    "keterangan": "X A-G, X M-N"
+  },
+  "24": {
+    "nama": "ABDUL RAHMAN, S.Pd",
+    "mapel": [
+      "penjas"
+    ],
+    "jam_mengajar": 24,
+    "keterangan": "XII IPA 1-8"
+  }
+}
